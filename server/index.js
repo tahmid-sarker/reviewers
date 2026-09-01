@@ -14,7 +14,11 @@ const decoded = Buffer.from(process.env.FIREBASE_ADMIN_KEY, 'base64').toString('
 const serviceAccount = JSON.parse(decoded)
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://tahmid-sarker.github.io"],
+    origin: [
+      "http://localhost:5173",
+      "https://rate-cloud.web.app",
+      "https://rate-cloud.firebaseapp.com",
+    ],
     credentials: true,
   })
 );
