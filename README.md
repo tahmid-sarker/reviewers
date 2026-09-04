@@ -1,6 +1,7 @@
 # Reviewers (Review Management)
 
-- [**View Live**](https://tahmid-sarker.github.io/reviewers/)
+- [**Client Live (Firebase)**](https://rate-cloud.web.app)
+- [**API Live (Vercel)**](https://rate-cloud.vercel.app)
 
 Reviewers is a review management web application that lets users explore, share, and review digital services. Whether you're offering solutions or looking for honest feedback, Reviewers brings user-powered service discovery to life.
 
@@ -28,7 +29,7 @@ Reviewers is a review management web application that lets users explore, share,
 | Backend         | Express.js, MongoDB        |
 | Auth & Hosting  | Firebase (Auth + Hosting)  |
 | Auth Protection | Firebase Admin, JWT        |
-| Deployment      | GitHub Pages (client) + Vercel (API) |
+| Deployment      | Firebase Hosting (client) + Vercel (API) |
 
 
 ## Routing Overview
