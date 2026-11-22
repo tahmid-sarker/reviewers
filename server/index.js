@@ -183,12 +183,6 @@ app.post("/users", VerifyFirebaseToken, async (req, res) => {
   }
 });
 
-// Get All user info (Read)
-app.get("/users", async (req, res) => {
-  const result = await userCollection.find().toArray();
-  res.send(result);
-});
-
 // Get user logged info (Update)
 app.patch("/users/login", VerifyFirebaseToken, async (req, res) => {
   const { email, lastSignInTime } = req.body;
